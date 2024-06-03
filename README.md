@@ -66,14 +66,12 @@ Data considered for this analysis is a public data that explores smart device us
 
 ● Removed duplicates using google sheets
 
+● Verified the data types of all the columns.
+● Observed too many null values in the “weightLogInfo_merged” when LEFT joined with the primary table “dailyActivity_merged”. Also “weightLogInfo_merged” has very limited data points. Hence the table “weightLogInfo_merged” is not considered for this analysis.
 
+● Imported all the 18 tables into Big Query for merging data for analysis. 
 
-Verified the data types of all the columns.
-Observed too many null values in the “weightLogInfo_merged” when LEFT joined with the primary table “dailyActivity_merged”. Also “weightLogInfo_merged” has very limited data points. Hence the table “weightLogInfo_merged” is not considered for this analysis.
-
-Imported all the 18 tables into Big Query for merging data for analysis. 
-
-Merged the “dailyActivity_merged”, “sleepDay_merged” using Big Query.
+● Merged the “dailyActivity_merged”, “sleepDay_merged” using Big Query.
 
 
 SELECT
@@ -88,6 +86,7 @@ SELECT
   LEFT JOIN `bellabeat-fitbit-data-analysis.bellabeat_data.sleepDay_merged` AS sleepDay_merged
    ON dailyActivity_merged.Id = sleepDay_merged.Id
    AND CAST(dailyActivity_merged.ActivityDate AS DATE) = CAST( sleepDay_merged.SleepDay AS DATE)
+
 
 For learning purpose, uploaded and merged the same data using Tableau as well.
 
