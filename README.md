@@ -1,25 +1,25 @@
-# Capstone-Project
-# Data Analysis Case Study - Bellabeat
+### Capstone-Project
+## Data Analysis Case Study - Bellabeat
 
 # BELLA BEAT - FITBIT FITNESS TRACKER DATA ANALYSIS
 
 
 Bellabeat is a high-tech women health products manufacturer. This company owns a list of health specific smart devices. The below analysis is regarding the usage of smart devices by the customers and to explore the possibilities of recommendations for Bellabeat’s marketing strategy.
 
-# ASK
+## ASK
 
-# BUSINESS TASK:
+## BUSINESS TASK:
 1. What are some trends in smart device usage? 
 2. How could these trends apply to Bellabeat customers? 
 3. How could these trends help influence Bellabeat marketing strategy?
 
-# STAKEHOLDERS:
+## STAKEHOLDERS:
 ○ Urška Sršen: Bellabeat’s cofounder
 ○ Sando Mur: Mathematician and Bellabeat’s cofounder
 ○ Bellabeat marketing analytics team
 
 
-# PREPARE
+## PREPARE
 
 Data considered for this analysis is a public data that explores smart device users’ daily habits for FitBit Fitness Tracker
 
@@ -56,7 +56,7 @@ Data considered for this analysis is a public data that explores smart device us
   - weightLogInfo_merged - This table has Weight, FAT and BMI. This has 67 records with mostly NULL values for FAT
 
 
-# Process
+## Process
 
 ● Downloaded the complete data set available.
 
@@ -96,7 +96,7 @@ For learning purpose, uploaded and merged the same data using Tableau as well.
 <img width="616" alt="Screenshot 2024-06-03 at 12 36 29 PM" src="https://github.com/jeevareha/Capstone-Project/assets/32441508/33eb9bbf-907f-43ae-a818-d9b2ad31c821">
 
 
-# Analyze
+## Analyze
 
 ### 1. Figured out usage percentage of the smart devices.
 	To do this, used the calculated fields to filter the records that has value > 0 in the “Total Distance” field.
