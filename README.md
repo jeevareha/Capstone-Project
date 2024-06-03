@@ -66,6 +66,8 @@ Data considered for this analysis is a public data that explores smart device us
 
 ● Removed duplicates using google sheets
 
+<img width="436" alt="Screenshot 2024-06-03 at 12 38 21 PM" src="https://github.com/jeevareha/Capstone-Project/assets/32441508/0ef19805-d798-4eb7-9167-f675c6fd646a">
+
 ● Verified the data types of all the columns.
 ● Observed too many null values in the “weightLogInfo_merged” when LEFT joined with the primary table “dailyActivity_merged”. Also “weightLogInfo_merged” has very limited data points. Hence the table “weightLogInfo_merged” is not considered for this analysis.
 
@@ -94,14 +96,14 @@ For learning purpose, uploaded and merged the same data using Tableau as well.
 <img width="616" alt="Screenshot 2024-06-03 at 12 36 29 PM" src="https://github.com/jeevareha/Capstone-Project/assets/32441508/33eb9bbf-907f-43ae-a818-d9b2ad31c821">
 
 
-Analyze
+# Analyze
 
-Figured out usage percentage of the smart devices.
-To do this, used the calculated fields to filter the records that has value > 0 in the “Total Distance” field.
-Then split the filtered records into 3 categories such as “LOW”, “MEDIUM”, “HIGH” and “VERY HIGH”.
+● Figured out usage percentage of the smart devices.
+	To do this, used the calculated fields to filter the records that has value > 0 in the “Total Distance” field.
+	Then split the filtered records into 3 categories such as “LOW”, “MEDIUM”, “HIGH” and “VERY HIGH”.
 	
 	
-
+	
 
 
 => Observed that very less percentage of customers are in “LOW USAGE” category.
