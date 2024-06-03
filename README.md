@@ -102,9 +102,8 @@ For learning purpose, uploaded and merged the same data using Tableau as well.
 	To do this, used the calculated fields to filter the records that has value > 0 in the “Total Distance” field.
 	Then split the filtered records into 3 categories such as “LOW”, “MEDIUM”, “HIGH” and “VERY HIGH”.
 	
+<img width="351" alt="Screenshot 2024-06-03 at 12 40 03 PM" src="https://github.com/jeevareha/Capstone-Project/assets/32441508/ca60a5d5-fe1a-4c41-9c18-86858166a2a3">
 	
-	
-
 
 => Observed that very less percentage of customers are in “LOW USAGE” category.
 
