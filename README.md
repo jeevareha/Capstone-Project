@@ -75,7 +75,7 @@ Data considered for this analysis is a public data that explores smart device us
 
 ● Merged the “dailyActivity_merged”, “sleepDay_merged” using Big Query.
 
-
+```
 SELECT
    dailyActivity_merged.*,
    sleepDay_merged.SleepDay,
@@ -89,7 +89,7 @@ SELECT
    ON dailyActivity_merged.Id = sleepDay_merged.Id
    AND CAST(dailyActivity_merged.ActivityDate AS DATE) = CAST( sleepDay_merged.SleepDay AS DATE)
 
-
+```
 For learning purpose, uploaded and merged the same data using Tableau as well.
 
 
@@ -98,27 +98,27 @@ For learning purpose, uploaded and merged the same data using Tableau as well.
 
 # Analyze
 
-● Figured out usage percentage of the smart devices.
+### 1. Figured out usage percentage of the smart devices.
 	To do this, used the calculated fields to filter the records that has value > 0 in the “Total Distance” field.
 	Then split the filtered records into 3 categories such as “LOW”, “MEDIUM”, “HIGH” and “VERY HIGH”.
 	
 <img width="351" alt="Screenshot 2024-06-03 at 12 40 03 PM" src="https://github.com/jeevareha/Capstone-Project/assets/32441508/ca60a5d5-fe1a-4c41-9c18-86858166a2a3">
 	
 
-=> Observed that very less percentage of customers are in “LOW USAGE” category.
+#### => Observed that very less percentage of customers are in “LOW USAGE” category.
 
 
 
 
 
-Validated the calories burnt against different levels of active minutes.
+### 2. Validated the calories burnt against different levels of active minutes.
+
+<img width="544" alt="Screenshot 2024-06-03 at 12 41 38 PM" src="https://github.com/jeevareha/Capstone-Project/assets/32441508/4c035a90-710e-4015-88d2-f606dd5d6f57">
+
 The Calories are split across different buckets such as “LOW”, “MEDIUM”, “HIGH” and “VERY HIGH”.
 
 
-
-
-
-=>  Observed that a good amount of calories are burnt during the “Light Active Minutes” and the “Moderate Active Minutes” as well. (and not just during high active hours)
+#### =>  Observed that a good amount of calories are burnt during the “Light Active Minutes” and the “Moderate Active Minutes” as well. (and not just during high active hours)
 
 
 
