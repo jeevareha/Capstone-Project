@@ -91,7 +91,7 @@ SELECT
 For learning purpose, uploaded and merged the same data using Tableau as well.
 
 
-
+<img width="616" alt="Screenshot 2024-06-03 at 12 36 29 PM" src="https://github.com/jeevareha/Capstone-Project/assets/32441508/33eb9bbf-907f-43ae-a818-d9b2ad31c821">
 
 
 Analyze
